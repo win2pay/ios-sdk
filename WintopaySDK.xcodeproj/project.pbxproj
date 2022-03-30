@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		00C215513C835324080FBB0F /* libPods-PayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFED47FAAFA187655D2BA218 /* libPods-PayDemo.a */; };
 		48114A1E2665D30C00A86B9E /* WPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114A1D2665D30B00A86B9E /* WPTool.swift */; };
 		4816A2B227CF4B7F00415DF2 /* WP3DWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816A2B127CF4B7E00415DF2 /* WP3DWebView.swift */; };
 		4816A2B427CF4E0300415DF2 /* WP3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816A2B327CF4E0300415DF2 /* WP3DViewController.swift */; };
@@ -159,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4835B7E8268DB5C90092C62A /* WintopaySDK.framework in Frameworks */,
+				00C215513C835324080FBB0F /* libPods-PayDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

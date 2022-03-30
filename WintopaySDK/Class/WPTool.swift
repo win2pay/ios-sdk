@@ -225,7 +225,7 @@ public class WPTool: NSObject {
               let encrypted = try AES.init(key: key.bytes, blockMode:CBC.init(iv:"d3a8e602be44ce21".bytes), padding: .pkcs5)
              let encoded = try encrypted.encrypt(str.bytes)
              // encryptedStr = encoded.toHexString()
-              encryptedStr = encoded.toBase64() ?? "Base64 error"
+              encryptedStr = encoded.toBase64()
           } catch {
               print(error.localizedDescription)
           }
