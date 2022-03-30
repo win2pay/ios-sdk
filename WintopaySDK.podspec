@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     WintopaySDK可让您快速轻松地在您的 iOS 应用中构建出色的支付体验。
                    DESC
 
-  spec.homepage     = "https://github.com/jian/wtp-ios"
+  spec.homepage = "https://github.com/jian/wtp-ios.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jian/wtp-ios.git", :tag => "1.0.0" }
+  spec.source  = { :git => "https://github.com/jian/wtp-ios.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

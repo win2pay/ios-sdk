@@ -128,7 +128,7 @@ open class WPPayView: UIView {
         tipsLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -18).isActive = true
         tipsLabel.textAlignment = .left
         
-        payButton.setTitle(dollarSignSring + am, for: .normal)
+        payButton.setTitle(dollarSignSring + am + " " + currency, for: .normal)
         basicParameter.order_id = order_id
         basicParameter.amount = am
         basicParameter.currency = currency
@@ -148,7 +148,7 @@ open class WPPayView: UIView {
     }
     
     ///货币符号
-    public var dollarSignSring = "Pay $"
+    public var dollarSignSring = "Pay "
     
  
     ///头部区域
