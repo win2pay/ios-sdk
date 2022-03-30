@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4811498C2664DF6200A86B9E /* WintopaySDKAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4811498D2664DF6200A86B9E /* Build configuration list for PBXAggregateTarget "WintopaySDKAggregate" */;
+			buildPhases = (
+				481149942664DF8F00A86B9E /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = WintopaySDKAggregate;
+			productName = WintopaySDKAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		48114A1E2665D30C00A86B9E /* WPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114A1D2665D30B00A86B9E /* WPTool.swift */; };
+		4816A2B227CF4B7F00415DF2 /* WP3DWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816A2B127CF4B7E00415DF2 /* WP3DWebView.swift */; };
+		4816A2B427CF4E0300415DF2 /* WP3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816A2B327CF4E0300415DF2 /* WP3DViewController.swift */; };
+		481C24202666250900A625A1 /* WPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481C241F2666250900A625A1 /* WPTextField.swift */; };
+		481C243B26675DC300A625A1 /* WPValidityTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481C243A26675DC200A625A1 /* WPValidityTextFieldView.swift */; };
+		481C248B2669C91A00A625A1 /* WPNetWorkManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481C248A2669C91800A625A1 /* WPNetWorkManage.swift */; };
+		4835B7E8268DB5C90092C62A /* WintopaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4871403B2664831F009F445D /* WintopaySDK.framework */; };
+		48386BB927C6311B004E0D9A /* WPPayResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48386BB827C6311B004E0D9A /* WPPayResultViewController.swift */; };
+		48386BC027C63202004E0D9A /* WPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48386BBF27C63202004E0D9A /* WPNavigationController.swift */; };
+		487140402664831F009F445D /* WintopaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4871403E2664831F009F445D /* WintopaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48714099266484AB009F445D /* WPPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48714098266484AB009F445D /* WPPayView.swift */; };
+		4888985E2664D4E2007929E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888985D2664D4E2007929E8 /* AppDelegate.swift */; };
+		488898602664D4E2007929E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888985F2664D4E2007929E8 /* SceneDelegate.swift */; };
+		488898622664D4E2007929E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488898612664D4E2007929E8 /* ViewController.swift */; };
+		488898652664D4E2007929E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488898632664D4E2007929E8 /* Main.storyboard */; };
+		488898672664D4E4007929E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488898662664D4E4007929E8 /* Assets.xcassets */; };
+		4888986A2664D4E4007929E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488898682664D4E4007929E8 /* LaunchScreen.storyboard */; };
+		488898752664D4E5007929E8 /* PayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488898742664D4E5007929E8 /* PayDemoTests.swift */; };
+		488898802664D4E5007929E8 /* PayDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888987F2664D4E5007929E8 /* PayDemoUITests.swift */; };
+		488898AF2664D688007929E8 /* Wintopay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4896341A2664B557006FCB42 /* Wintopay.bundle */; };
+		4896341B2664B557006FCB42 /* Wintopay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4896341A2664B557006FCB42 /* Wintopay.bundle */; };
+		48A57EE727C7868A004326A4 /* WPMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A57EE627C7868A004326A4 /* WPMaskView.swift */; };
+		C93CB02AAA57D40D4AF65306 /* libPods-WintopaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE6896985B539C5751870 /* libPods-WintopaySDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48114A042664E6DE00A86B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488897752664CBA4007929E8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ECD6E20416A5FEA594F18C48FDC588D;
+			remoteInfo = "Pods-PayDemo";
+		};
+		48114A062664E6DE00A86B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488897752664CBA4007929E8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A15B7B0D6D0F4A5FC74B70F550128130;
+			remoteInfo = "Pods-WintopaySDK";
+		};
+		481C244126675DC400A625A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488897752664CBA4007929E8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8E950A16D00F649C54FFB30F81D7842;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		4835B7A1268DA9BC0092C62A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487140322664831F009F445D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4871403A2664831F009F445D;
+			remoteInfo = WintopaySDK;
+		};
+		4888977B2664CBA5007929E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488897752664CBA4007929E8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		488898712664D4E5007929E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487140322664831F009F445D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4888985A2664D4E2007929E8;
+			remoteInfo = PayDemo;
+		};
+		4888987C2664D4E5007929E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487140322664831F009F445D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4888985A2664D4E2007929E8;
+			remoteInfo = PayDemo;
+		};
+		48B584402671BEDD000237E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488897752664CBA4007929E8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F81274EDB681F11E7CB05F7DCA2BB33C;
+			remoteInfo = CryptoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091DAFC2AC5013354E87783A /* Pods-commonPods-WintopaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonPods-WintopaySDK.release.xcconfig"; path = "Target Support Files/Pods-commonPods-WintopaySDK/Pods-commonPods-WintopaySDK.release.xcconfig"; sourceTree = "<group>"; };
+		14567EFBE4D1350295461437 /* Pods-WintopaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WintopaySDK.release.xcconfig"; path = "Target Support Files/Pods-WintopaySDK/Pods-WintopaySDK.release.xcconfig"; sourceTree = "<group>"; };
+		26BDD13457852D5110777675 /* Pods-WintopaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WintopaySDK.debug.xcconfig"; path = "Target Support Files/Pods-WintopaySDK/Pods-WintopaySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5AE6896985B539C5751870 /* libPods-WintopaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WintopaySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48114A1D2665D30B00A86B9E /* WPTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPTool.swift; sourceTree = "<group>"; };
+		4816A2B127CF4B7E00415DF2 /* WP3DWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WP3DWebView.swift; sourceTree = "<group>"; };
+		4816A2B327CF4E0300415DF2 /* WP3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WP3DViewController.swift; sourceTree = "<group>"; };
+		481C241F2666250900A625A1 /* WPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPTextField.swift; sourceTree = "<group>"; };
+		481C243A26675DC200A625A1 /* WPValidityTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPValidityTextFieldView.swift; sourceTree = "<group>"; };
+		481C248A2669C91800A625A1 /* WPNetWorkManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPNetWorkManage.swift; sourceTree = "<group>"; };
+		48386BB827C6311B004E0D9A /* WPPayResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPPayResultViewController.swift; sourceTree = "<group>"; };
+		48386BBF27C63202004E0D9A /* WPNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPNavigationController.swift; sourceTree = "<group>"; };
+		4871403B2664831F009F445D /* WintopaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WintopaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4871403E2664831F009F445D /* WintopaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WintopaySDK.h; sourceTree = "<group>"; };
+		4871403F2664831F009F445D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48714098266484AB009F445D /* WPPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPPayView.swift; sourceTree = "<group>"; };
+		488897752664CBA4007929E8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		4888985B2664D4E2007929E8 /* PayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4888985D2664D4E2007929E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4888985F2664D4E2007929E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		488898612664D4E2007929E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		488898642664D4E2007929E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		488898662664D4E4007929E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488898692664D4E4007929E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4888986B2664D4E4007929E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488898702664D4E5007929E8 /* PayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488898742664D4E5007929E8 /* PayDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDemoTests.swift; sourceTree = "<group>"; };
+		488898762664D4E5007929E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4888987B2664D4E5007929E8 /* PayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4888987F2664D4E5007929E8 /* PayDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDemoUITests.swift; sourceTree = "<group>"; };
+		488898812664D4E5007929E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4896341A2664B557006FCB42 /* Wintopay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Wintopay.bundle; path = WintopaySDK/Wintopay.bundle; sourceTree = "<group>"; };
+		48A57EE627C7868A004326A4 /* WPMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPMaskView.swift; sourceTree = "<group>"; };
+		5561D16812E279A6389A3D15 /* Pods-commonPods-WintopaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonPods-WintopaySDK.debug.xcconfig"; path = "Target Support Files/Pods-commonPods-WintopaySDK/Pods-commonPods-WintopaySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD5F15CED541D2CC1DD625E /* Pods-PayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDemo.release.xcconfig"; path = "Target Support Files/Pods-PayDemo/Pods-PayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B42AB9124D1772041CC3A847 /* Pods-PayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDemo.debug.xcconfig"; path = "Target Support Files/Pods-PayDemo/Pods-PayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DFED47FAAFA187655D2BA218 /* libPods-PayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487140382664831F009F445D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93CB02AAA57D40D4AF65306 /* libPods-WintopaySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488898582664D4E2007929E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4835B7E8268DB5C90092C62A /* WintopaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4888986D2664D4E5007929E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488898782664D4E5007929E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E93027772C620EA61DE1BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5561D16812E279A6389A3D15 /* Pods-commonPods-WintopaySDK.debug.xcconfig */,
+				091DAFC2AC5013354E87783A /* Pods-commonPods-WintopaySDK.release.xcconfig */,
+				B42AB9124D1772041CC3A847 /* Pods-PayDemo.debug.xcconfig */,
+				7AD5F15CED541D2CC1DD625E /* Pods-PayDemo.release.xcconfig */,
+				26BDD13457852D5110777675 /* Pods-WintopaySDK.debug.xcconfig */,
+				14567EFBE4D1350295461437 /* Pods-WintopaySDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4816A2AA27CF49CC00415DF2 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				4816A2B127CF4B7E00415DF2 /* WP3DWebView.swift */,
+				4816A2B327CF4E0300415DF2 /* WP3DViewController.swift */,
+			);
+			name = 3D;
+			sourceTree = "<group>";
+		};
+		4816A2B027CF4AF900415DF2 /* WPBasic */ = {
+			isa = PBXGroup;
+			children = (
+				481C248A2669C91800A625A1 /* WPNetWorkManage.swift */,
+				48114A1D2665D30B00A86B9E /* WPTool.swift */,
+				48A57EED27C786A6004326A4 /* View */,
+				48A57EEE27C786B3004326A4 /* ViewController */,
+			);
+			name = WPBasic;
+			sourceTree = "<group>";
+		};
+		487140312664831F009F445D = {
+			isa = PBXGroup;
+			children = (
+				4896341A2664B557006FCB42 /* Wintopay.bundle */,
+				4871403D2664831F009F445D /* WintopaySDK */,
+				4888985C2664D4E2007929E8 /* PayDemo */,
+				488898732664D4E5007929E8 /* PayDemoTests */,
+				4888987E2664D4E5007929E8 /* PayDemoUITests */,
+				4871403C2664831F009F445D /* Products */,
+				44E93027772C620EA61DE1BB /* Pods */,
+				90EBC1D47C9F20E4DF075924 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4871403C2664831F009F445D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4871403B2664831F009F445D /* WintopaySDK.framework */,
+				4888985B2664D4E2007929E8 /* PayDemo.app */,
+				488898702664D4E5007929E8 /* PayDemoTests.xctest */,
+				4888987B2664D4E5007929E8 /* PayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4871403D2664831F009F445D /* WintopaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				4871403F2664831F009F445D /* Info.plist */,
+				4871409F266489D3009F445D /* Class */,
+			);
+			path = WintopaySDK;
+			sourceTree = "<group>";
+		};
+		4871409F266489D3009F445D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4871403E2664831F009F445D /* WintopaySDK.h */,
+				4816A2B027CF4AF900415DF2 /* WPBasic */,
+				4816A2AA27CF49CC00415DF2 /* 3D */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		488897762664CBA4007929E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4888977C2664CBA5007929E8 /* libAlamofire.a */,
+				48B584412671BEDD000237E2 /* libCryptoSwift.a */,
+				481C244226675DC400A625A1 /* libIQKeyboardManagerSwift.a */,
+				48114A052664E6DE00A86B9E /* libPods-PayDemo.a */,
+				48114A072664E6DE00A86B9E /* libPods-WintopaySDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4888985C2664D4E2007929E8 /* PayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4888985D2664D4E2007929E8 /* AppDelegate.swift */,
+				4888985F2664D4E2007929E8 /* SceneDelegate.swift */,
+				488898612664D4E2007929E8 /* ViewController.swift */,
+				488898632664D4E2007929E8 /* Main.storyboard */,
+				488898662664D4E4007929E8 /* Assets.xcassets */,
+				488898682664D4E4007929E8 /* LaunchScreen.storyboard */,
+				4888986B2664D4E4007929E8 /* Info.plist */,
+			);
+			path = PayDemo;
+			sourceTree = "<group>";
+		};
+		488898732664D4E5007929E8 /* PayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				488898742664D4E5007929E8 /* PayDemoTests.swift */,
+				488898762664D4E5007929E8 /* Info.plist */,
+			);
+			path = PayDemoTests;
+			sourceTree = "<group>";
+		};
+		4888987E2664D4E5007929E8 /* PayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4888987F2664D4E5007929E8 /* PayDemoUITests.swift */,
+				488898812664D4E5007929E8 /* Info.plist */,
+			);
+			path = PayDemoUITests;
+			sourceTree = "<group>";
+		};
+		48A57EED27C786A6004326A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				481C243A26675DC200A625A1 /* WPValidityTextFieldView.swift */,
+				48714098266484AB009F445D /* WPPayView.swift */,
+				481C241F2666250900A625A1 /* WPTextField.swift */,
+				48A57EE627C7868A004326A4 /* WPMaskView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		48A57EEE27C786B3004326A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48386BBF27C63202004E0D9A /* WPNavigationController.swift */,
+				48386BB827C6311B004E0D9A /* WPPayResultViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		90EBC1D47C9F20E4DF075924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				488897752664CBA4007929E8 /* Pods.xcodeproj */,
+				DFED47FAAFA187655D2BA218 /* libPods-PayDemo.a */,
+				3A5AE6896985B539C5751870 /* libPods-WintopaySDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		487140362664831F009F445D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487140402664831F009F445D /* WintopaySDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4871403A2664831F009F445D /* WintopaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487140432664831F009F445D /* Build configuration list for PBXNativeTarget "WintopaySDK" */;
+			buildPhases = (
+				81C2E73B5DA810E0CE873064 /* [CP] Check Pods Manifest.lock */,
+				487140362664831F009F445D /* Headers */,
+				487140372664831F009F445D /* Sources */,
+				487140382664831F009F445D /* Frameworks */,
+				487140392664831F009F445D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WintopaySDK;
+			productName = WintopaySDK;
+			productReference = 4871403B2664831F009F445D /* WintopaySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4888985A2664D4E2007929E8 /* PayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4888988B2664D4E5007929E8 /* Build configuration list for PBXNativeTarget "PayDemo" */;
+			buildPhases = (
+				4BBA6014D39F00CB2AC27546 /* [CP] Check Pods Manifest.lock */,
+				488898572664D4E2007929E8 /* Sources */,
+				488898582664D4E2007929E8 /* Frameworks */,
+				488898592664D4E2007929E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4835B7A2268DA9BC0092C62A /* PBXTargetDependency */,
+			);
+			name = PayDemo;
+			productName = PayDemo;
+			productReference = 4888985B2664D4E2007929E8 /* PayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4888986F2664D4E5007929E8 /* PayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4888988C2664D4E5007929E8 /* Build configuration list for PBXNativeTarget "PayDemoTests" */;
+			buildPhases = (
+				4888986C2664D4E5007929E8 /* Sources */,
+				4888986D2664D4E5007929E8 /* Frameworks */,
+				4888986E2664D4E5007929E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488898722664D4E5007929E8 /* PBXTargetDependency */,
+			);
+			name = PayDemoTests;
+			productName = PayDemoTests;
+			productReference = 488898702664D4E5007929E8 /* PayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4888987A2664D4E5007929E8 /* PayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4888988D2664D4E5007929E8 /* Build configuration list for PBXNativeTarget "PayDemoUITests" */;
+			buildPhases = (
+				488898772664D4E5007929E8 /* Sources */,
+				488898782664D4E5007929E8 /* Frameworks */,
+				488898792664D4E5007929E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4888987D2664D4E5007929E8 /* PBXTargetDependency */,
+			);
+			name = PayDemoUITests;
+			productName = PayDemoUITests;
+			productReference = 4888987B2664D4E5007929E8 /* PayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487140322664831F009F445D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4811498C2664DF6200A86B9E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4871403A2664831F009F445D = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					4888985A2664D4E2007929E8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4888986F2664D4E5007929E8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4888985A2664D4E2007929E8;
+					};
+					4888987A2664D4E5007929E8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4888985A2664D4E2007929E8;
+					};
+				};
+			};
+			buildConfigurationList = 487140352664831F009F445D /* Build configuration list for PBXProject "WintopaySDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 487140312664831F009F445D;
+			productRefGroup = 4871403C2664831F009F445D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 488897762664CBA4007929E8 /* Products */;
+					ProjectRef = 488897752664CBA4007929E8 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4888985A2664D4E2007929E8 /* PayDemo */,
+				4888986F2664D4E5007929E8 /* PayDemoTests */,
+				4888987A2664D4E5007929E8 /* PayDemoUITests */,
+				4871403A2664831F009F445D /* WintopaySDK */,
+				4811498C2664DF6200A86B9E /* WintopaySDKAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		48114A052664E6DE00A86B9E /* libPods-PayDemo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-PayDemo.a";
+			remoteRef = 48114A042664E6DE00A86B9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		48114A072664E6DE00A86B9E /* libPods-WintopaySDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-WintopaySDK.a";
+			remoteRef = 48114A062664E6DE00A86B9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		481C244226675DC400A625A1 /* libIQKeyboardManagerSwift.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIQKeyboardManagerSwift.a;
+			remoteRef = 481C244126675DC400A625A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4888977C2664CBA5007929E8 /* libAlamofire.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAlamofire.a;
+			remoteRef = 4888977B2664CBA5007929E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		48B584412671BEDD000237E2 /* libCryptoSwift.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCryptoSwift.a;
+			remoteRef = 48B584402671BEDD000237E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487140392664831F009F445D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4896341B2664B557006FCB42 /* Wintopay.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488898592664D4E2007929E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488898AF2664D688007929E8 /* Wintopay.bundle in Resources */,
+				4888986A2664D4E4007929E8 /* LaunchScreen.storyboard in Resources */,
+				488898672664D4E4007929E8 /* Assets.xcassets in Resources */,
+				488898652664D4E2007929E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4888986E2664D4E5007929E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488898792664D4E5007929E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		481149942664DF8F00A86B9E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n\n\n";
+		};
+		4BBA6014D39F00CB2AC27546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C2E73B5DA810E0CE873064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WintopaySDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487140372664831F009F445D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481C24202666250900A625A1 /* WPTextField.swift in Sources */,
+				48A57EE727C7868A004326A4 /* WPMaskView.swift in Sources */,
+				4816A2B427CF4E0300415DF2 /* WP3DViewController.swift in Sources */,
+				48386BC027C63202004E0D9A /* WPNavigationController.swift in Sources */,
+				48386BB927C6311B004E0D9A /* WPPayResultViewController.swift in Sources */,
+				481C243B26675DC300A625A1 /* WPValidityTextFieldView.swift in Sources */,
+				4816A2B227CF4B7F00415DF2 /* WP3DWebView.swift in Sources */,
+				48114A1E2665D30C00A86B9E /* WPTool.swift in Sources */,
+				48714099266484AB009F445D /* WPPayView.swift in Sources */,
+				481C248B2669C91A00A625A1 /* WPNetWorkManage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488898572664D4E2007929E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488898622664D4E2007929E8 /* ViewController.swift in Sources */,
+				4888985E2664D4E2007929E8 /* AppDelegate.swift in Sources */,
+				488898602664D4E2007929E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4888986C2664D4E5007929E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488898752664D4E5007929E8 /* PayDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488898772664D4E5007929E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488898802664D4E5007929E8 /* PayDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4835B7A2268DA9BC0092C62A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4871403A2664831F009F445D /* WintopaySDK */;
+			targetProxy = 4835B7A1268DA9BC0092C62A /* PBXContainerItemProxy */;
+		};
+		488898722664D4E5007929E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4888985A2664D4E2007929E8 /* PayDemo */;
+			targetProxy = 488898712664D4E5007929E8 /* PBXContainerItemProxy */;
+		};
+		4888987D2664D4E5007929E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4888985A2664D4E2007929E8 /* PayDemo */;
+			targetProxy = 4888987C2664D4E5007929E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488898632664D4E2007929E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488898642664D4E2007929E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		488898682664D4E4007929E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488898692664D4E4007929E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4811498E2664DF6200A86B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4811498F2664DF6200A86B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		487140412664831F009F445D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		487140422664831F009F445D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		487140442664831F009F445D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BDD13457852D5110777675 /* Pods-WintopaySDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WintopaySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wintopay.WintopaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		487140452664831F009F445D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14567EFBE4D1350295461437 /* Pods-WintopaySDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WintopaySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wintopay.WintopaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		488898822664D4E5007929E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42AB9124D1772041CC3A847 /* Pods-PayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				INFOPLIST_FILE = PayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.WintopayDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488898832664D4E5007929E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD5F15CED541D2CC1DD625E /* Pods-PayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				INFOPLIST_FILE = PayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.WintopayDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		488898842664D4E5007929E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				INFOPLIST_FILE = PayDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.PayDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayDemo.app/PayDemo";
+			};
+			name = Debug;
+		};
+		488898852664D4E5007929E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				INFOPLIST_FILE = PayDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.PayDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayDemo.app/PayDemo";
+			};
+			name = Release;
+		};
+		488898862664D4E5007929E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				INFOPLIST_FILE = PayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.PayDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayDemo;
+			};
+			name = Debug;
+		};
+		488898872664D4E5007929E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKT6USTL5Z;
+				INFOPLIST_FILE = PayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.PayDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4811498D2664DF6200A86B9E /* Build configuration list for PBXAggregateTarget "WintopaySDKAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4811498E2664DF6200A86B9E /* Debug */,
+				4811498F2664DF6200A86B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487140352664831F009F445D /* Build configuration list for PBXProject "WintopaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487140412664831F009F445D /* Debug */,
+				487140422664831F009F445D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487140432664831F009F445D /* Build configuration list for PBXNativeTarget "WintopaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487140442664831F009F445D /* Debug */,
+				487140452664831F009F445D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4888988B2664D4E5007929E8 /* Build configuration list for PBXNativeTarget "PayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488898822664D4E5007929E8 /* Debug */,
+				488898832664D4E5007929E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4888988C2664D4E5007929E8 /* Build configuration list for PBXNativeTarget "PayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488898842664D4E5007929E8 /* Debug */,
+				488898852664D4E5007929E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4888988D2664D4E5007929E8 /* Build configuration list for PBXNativeTarget "PayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488898862664D4E5007929E8 /* Debug */,
+				488898872664D4E5007929E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487140322664831F009F445D /* Project object */;
+}

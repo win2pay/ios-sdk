@@ -1,0 +1,6 @@
+module Pods_PayDemo {
+  umbrella header "Pods-PayDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

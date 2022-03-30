@@ -1,0 +1,11 @@
+framework module WintopaySDK {
+  umbrella header "WintopaySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WintopaySDK.Swift {
+    header "WintopaySDK-Swift.h"
+    requires objc
+}

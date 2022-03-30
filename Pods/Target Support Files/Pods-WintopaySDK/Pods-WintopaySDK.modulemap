@@ -1,0 +1,6 @@
+module Pods_WintopaySDK {
+  umbrella header "Pods-WintopaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
