@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WintopaySDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.0"
   spec.summary      = "WintopaySDK"
 
   # This description is used to generate tags and improve search results.
