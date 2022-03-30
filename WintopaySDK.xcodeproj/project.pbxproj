@@ -261,11 +261,11 @@
 		488897762664CBA4007929E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4888977C2664CBA5007929E8 /* libAlamofire.a */,
-				48B584412671BEDD000237E2 /* libCryptoSwift.a */,
-				481C244226675DC400A625A1 /* libIQKeyboardManagerSwift.a */,
-				48114A052664E6DE00A86B9E /* libPods-PayDemo.a */,
-				48114A072664E6DE00A86B9E /* libPods-WintopaySDK.a */,
+				4888977C2664CBA5007929E8 /* Alamofire */,
+				48B584412671BEDD000237E2 /* CryptoSwift */,
+				481C244226675DC400A625A1 /* IQKeyboardManagerSwift */,
+				48114A052664E6DE00A86B9E /* Pods-PayDemo */,
+				48114A072664E6DE00A86B9E /* Pods-WintopaySDK */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -479,37 +479,42 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		48114A052664E6DE00A86B9E /* libPods-PayDemo.a */ = {
+		48114A052664E6DE00A86B9E /* Pods-PayDemo */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = "Pods-PayDemo";
 			path = "libPods-PayDemo.a";
 			remoteRef = 48114A042664E6DE00A86B9E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		48114A072664E6DE00A86B9E /* libPods-WintopaySDK.a */ = {
+		48114A072664E6DE00A86B9E /* Pods-WintopaySDK */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = "Pods-WintopaySDK";
 			path = "libPods-WintopaySDK.a";
 			remoteRef = 48114A062664E6DE00A86B9E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		481C244226675DC400A625A1 /* libIQKeyboardManagerSwift.a */ = {
+		481C244226675DC400A625A1 /* IQKeyboardManagerSwift */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = IQKeyboardManagerSwift;
 			path = libIQKeyboardManagerSwift.a;
 			remoteRef = 481C244126675DC400A625A1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4888977C2664CBA5007929E8 /* libAlamofire.a */ = {
+		4888977C2664CBA5007929E8 /* Alamofire */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = Alamofire;
 			path = libAlamofire.a;
 			remoteRef = 4888977B2664CBA5007929E8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		48B584412671BEDD000237E2 /* libCryptoSwift.a */ = {
+		48B584412671BEDD000237E2 /* CryptoSwift */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = CryptoSwift;
 			path = libCryptoSwift.a;
 			remoteRef = 48B584402671BEDD000237E2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -914,6 +919,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.WintopayDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -935,6 +941,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.WintopayDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
