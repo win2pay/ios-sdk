@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WintopaySDK"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "WintopaySDK"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     WintopaySDK可让您快速轻松地在您的 iOS 应用中构建出色的支付体验。
                    DESC
 
-  spec.homepage = "https://github.com/jian/wtp-ios.git"
+  spec.homepage = "https://github.com/win2pay/ios-sdk.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source  = { :git => "https://github.com/jian/wtp-ios.git", :tag => "1.0.1" }
+  spec.source  = { :git => "https://github.com/win2pay/ios-sdk.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
