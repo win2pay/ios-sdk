@@ -481,7 +481,6 @@ public class WPNetWorkManage: NSObject {
             return
         }
         let dict = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:Any]
-        print("dict == ",dict)
         if dict != nil {
             DispatchQueue.global().async { [self] in
                 AF.request(self.gateway, method: .post, parameters: dict!, encoding: URLEncoding.default, headers: headers, interceptor: nil).response { (response) in
