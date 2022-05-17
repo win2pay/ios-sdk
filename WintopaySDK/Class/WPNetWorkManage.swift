@@ -37,6 +37,53 @@ public enum WPPaymentResultStyle {
     case wp_data
 }
 
+///小票信息
+public struct WPReceiptModel {
+    
+    ///订单交易日期
+    var date:String
+         
+    ///运费
+    var freight:Float
+    
+    ///币种
+    var currency:String
+    
+    ///产品
+    var products:[WPProductsEncodable]
+    
+    ///初始化小票信息
+    ///parameters:
+    ///@date： 订单日期
+    ///@freight： 订单运费
+    ///@products： 产品信息数组（包含 数量和单价）
+    public init(date _date:String,freight _freight:Float,currency _currency:String,products _products:[WPProductsEncodable]) {
+        date = _date
+        freight = _freight
+        currency = _currency
+        products = _products
+    }
+
+}
+
+///小票产品信息
+public struct WPReceiptProductModel {
+    
+    ///数量
+    var quantity:Int
+    
+    ///单价
+    var unitPrice:Float
+         
+    public init(quantity _quantity:Int,unitPrice _unitPrice:Float) {
+        quantity = _quantity
+        unitPrice = _unitPrice
+
+    }
+
+}
+
+
 ///支付基础信息
 public struct WPBasicParameter: Encodable {
     ///设备类型
@@ -116,6 +163,7 @@ public struct WPBillingAddressParameter: Encodable {
     var billing_country:String
     ///客户端的 ip 地址，注意不是服务器的 ip
     var ip:String
+
     
     public init(billing_first_name fname: String, billing_last_name lname: String, billing_email email: String, billing_phone phone: String, billing_postal_code code: String, billing_address address: String, billing_city city: String, billing_state state: String, billing_country country: String, ip _ip: String){
         billing_first_name = fname
@@ -128,6 +176,7 @@ public struct WPBillingAddressParameter: Encodable {
         billing_country = country
         ip = _ip
         billing_email = email
+  
     }
 }
 
@@ -152,6 +201,7 @@ public struct WPShippingAddressParameter: Encodable {
     var shipping_state:String
     ///国家对应的两位 ISO 标准国家简码
     var shipping_country:String
+
     
     public init(shipping_first_name fname: String, shipping_last_name lname: String, shipping_email email: String, shipping_phone phone: String, shipping_postal_code code: String, shipping_address adress: String, shipping_city city: String, shipping_state state: String, shipping_country country: String){
         shipping_first_name = fname
@@ -163,6 +213,7 @@ public struct WPShippingAddressParameter: Encodable {
         shipping_city = city
         shipping_state = state
         shipping_country = country
+      
     }
 }
 
@@ -203,6 +254,39 @@ public struct WPProductsEncodable:Encodable{
     
 }
 
+///订单原始地址信息modl
+public struct WPOrderAddress {
+ 
+    public var transaction_data:String
+    
+    public init(bill:WPBillingAddressParameter,shipping:WPShippingAddressParameter,products:WPProductsInformationParameter,order_created_time:String,freight:String){
+        var dic:[String:Any] = [String:Any]()
+        let billDic = WPTool.encodableToDictionary(encodable: bill)
+        let shipDic = WPTool.encodableToDictionary(encodable: shipping)
+        let productsDic = WPTool.encodableToDictionary(encodable: products)
+        if billDic != nil && shipDic != nil && productsDic != nil {
+            for (key,value) in billDic!.reversed() {
+                dic[key] = value
+            }
+            for (key,value) in shipDic!.reversed() {
+                dic[key] = value
+            }
+            for (key,value) in productsDic!.reversed() {
+                dic[key] = value
+            }
+
+        }
+            dic["order_created_time"] = order_created_time
+            dic["freight"] = freight
+        
+        guard let jsonData = try? JSONSerialization.data(withJSONObject: dic, options: .fragmentsAllowed) else {
+            transaction_data = ""
+            return
+        }
+        transaction_data = String.init(data: jsonData, encoding: .utf8) ?? ""
+    }
+}
+
 
 public struct RequestModel: Encodable{
     
@@ -214,12 +298,15 @@ public struct RequestModel: Encodable{
     
     public var productsInforamtion:WPProductsInformationParameter
     
-    public init(basic:WPBasicParameter,billing:WPBillingAddressParameter,shipping:WPShippingAddressParameter,products:WPProductsInformationParameter) {
+    public var transaction_data:String?
+    
+    public init(basic:WPBasicParameter,billing:WPBillingAddressParameter,shipping:WPShippingAddressParameter,products:WPProductsInformationParameter,data:String?) {
         
         basicInformation = basic
         billingInformation = billing
         shippingInformation = shipping
         productsInforamtion = products
+        transaction_data = data
     }
     
     public  enum CodingKeys: String, CodingKey {
@@ -228,6 +315,7 @@ public struct RequestModel: Encodable{
         case billing_first_name,billing_last_name,billing_email,billing_phone,billing_postal_code,billing_address,billing_city,billing_state,billing_country,ip
         case shipping_first_name,shipping_last_name,shipping_email,shipping_phone,shipping_postal_code,shipping_address,shipping_city,shipping_state,shipping_country
         case products
+        case transaction_data
     }
     
     public func encode(to encoder: Encoder) throws {
@@ -258,6 +346,7 @@ public struct RequestModel: Encodable{
         try container.encode(billingInformation.billing_state, forKey: RequestModel.CodingKeys.billing_state)
         try container.encode(billingInformation.billing_country, forKey: RequestModel.CodingKeys.billing_country)
         try container.encode(billingInformation.ip, forKey: RequestModel.CodingKeys.ip)
+       
         
         try container.encode(shippingInformation.shipping_first_name, forKey: RequestModel.CodingKeys.shipping_first_name)
         try container.encode(shippingInformation.shipping_last_name, forKey: RequestModel.CodingKeys.shipping_last_name)
@@ -268,8 +357,10 @@ public struct RequestModel: Encodable{
         try container.encode(shippingInformation.shipping_city, forKey: RequestModel.CodingKeys.shipping_city)
         try container.encode(shippingInformation.shipping_state, forKey: RequestModel.CodingKeys.shipping_state)
         try container.encode(shippingInformation.shipping_country, forKey: RequestModel.CodingKeys.shipping_country)
+    
         
         try container.encode(productsInforamtion.products, forKey: RequestModel.CodingKeys.products)
+        try container.encode(transaction_data, forKey: RequestModel.CodingKeys.transaction_data)
     }
 }
 
@@ -350,6 +441,12 @@ public class WPNetWorkManage: NSObject {
     ///@wp_data 返回支付数据
     public var paymentResultStyle:WPPaymentResultStyle = .wp_view
     
+    ///小票model
+    public var receiptModel:WPReceiptModel?
+    
+    ///订单原始数据
+    public var AddressModel:WPOrderAddress?
+    
     
     ///获取哈希值
     func payHash(){
@@ -384,6 +481,7 @@ public class WPNetWorkManage: NSObject {
             return
         }
         let dict = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:Any]
+        print("dict == ",dict)
         if dict != nil {
             DispatchQueue.global().async { [self] in
                 AF.request(self.gateway, method: .post, parameters: dict!, encoding: URLEncoding.default, headers: headers, interceptor: nil).response { (response) in

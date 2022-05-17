@@ -15,9 +15,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        let vc = ViewController.init()
-        let nv = WPNavigationController.init(rootViewController:vc)
-        window?.rootViewController =  nv
+//        let vc = ViewController.init()
+//        let nv = WPNavigationController.init(rootViewController:vc)
+//        window?.rootViewController =  nv
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

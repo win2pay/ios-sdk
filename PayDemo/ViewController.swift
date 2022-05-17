@@ -18,7 +18,8 @@ class ViewController: UIViewController{
 //    let payView = WPPayView.sharedInstance
     
     lazy var payView:WPPayView = {
-        let pay = WPPayView.init(order_id: "test288822122", amount: "188", currency: "USD", language: "en", version: "20201001", user_agent: WPTool.getUserAgent() ?? "")
+        let random = arc4random_uniform(10000) + 1
+        let pay = WPPayView.init(order_id: "testSSM" + String(random), amount: "188", currency: "USD", language: "en", version: "20201001", user_agent: WPTool.getUserAgent() ?? "")
         return pay
     }()
     

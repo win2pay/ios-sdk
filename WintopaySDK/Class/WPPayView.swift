@@ -295,7 +295,7 @@ open class WPPayView: UIView {
         basicParameter.exp_month = ValidityLabelTextFeildView.dateTextField.text?.getMonth()?.encryptCardInformation() ?? ""
         let manage = WPNetWorkManage.manage
         basicParameter.merchant_id = manage.MerNo
-        manage.parameters = RequestModel.init(basic: basicParameter, billing: manage.billAdress!, shipping: manage.shippingAddress!, products: manage.productsInformation!)
+        manage.parameters = RequestModel.init(basic: basicParameter, billing: manage.billAdress!, shipping: manage.shippingAddress!, products: manage.productsInformation!, data: nil)
         manage.payHash()
         
         //请求
@@ -345,10 +345,7 @@ open class WPPayView: UIView {
             WPTool.showOnlyTextNoMask(message: "input text is null")
             return false
         }
-        guard let year = date.getYear(),let month = date.getMonth() else {
-            WPTool.showOnlyTextNoMask(message: "Invalid date format")
-            return false
-        }
+ 
 
         //去掉空格
         cardNo = cardNo.replacingOccurrences(of: " ", with: "")
@@ -356,6 +353,11 @@ open class WPPayView: UIView {
         ///卡号
         if cardNo.isEmpty == true {
             WPTool.showOnlyTextNoMask(message: "Please enter the card number")
+            return false
+        }
+        
+        guard let year = date.getYear(),let month = date.getMonth() else {
+            WPTool.showOnlyTextNoMask(message: "Invalid date format")
             return false
         }
         
