@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WintopaySDK"
-  spec.version      = "1.1.0"
+  spec.version      = "1.2.1"
   spec.summary      = "WintopaySDK"
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
    spec.platform     = :ios, "13.0"
-   spec.swift_versions = "4.0"
+   spec.swift_versions = "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source  = { :git => "https://github.com/win2pay/ios-sdk.git", :tag => "1.2.0" }
+  spec.source  = { :git => "https://github.com/win2pay/ios-sdk.git", :tag => "1.2.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
