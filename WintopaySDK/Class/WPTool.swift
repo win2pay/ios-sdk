@@ -78,6 +78,8 @@ extension UIImage{
         return UIImage.init(contentsOfFile: ImagePath)
     }
     
+    
+    
     ///根据卡种类型显示对应的卡种图片
     /// -brand：卡类型
     /// -eg: visa
@@ -329,12 +331,32 @@ public class WPTool: NSObject {
   }
     
    ///产品信息转JSONString
-   public class func toProductsJsonString(products:[WPProductsEncodable]) -> String? {
+    public class func toProductsJsonString<T:Encodable>(products:[T]) -> String? {
         guard let json = try? JSONEncoder.init().encode(products) else {
             return nil
         }
         return String.init(data: json, encoding: .utf8)
     }
+    
+    ///encodable转JSONString
+     public class func encodableToJsonString<T:Encodable>(encodable:T) -> String? {
+         guard let json = try? JSONEncoder.init().encode(encodable) else {
+             return nil
+         }
+         return String.init(data: json, encoding: .utf8)
+     }
+    
+    ///encodable转字典
+    public class func encodableToDictionary<T:Encodable>(encodable:T) -> [String:Any]? {
+         guard let json = try? JSONEncoder.init().encode(encodable) else {
+             return nil
+         }
+        guard let dic = try? JSONSerialization.jsonObject(with: json, options: .fragmentsAllowed) as? [String:Any] else { return nil }
+         
+         return dic
+     }
+    
+    
     
     ///显示文字loading 没有阴影
     public class func showOnlyTextNoMask(message:String){

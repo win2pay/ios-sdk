@@ -31,12 +31,23 @@
 		4835B7E8268DB5C90092C62A /* WintopaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4871403B2664831F009F445D /* WintopaySDK.framework */; };
 		48386BB927C6311B004E0D9A /* WPPayResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48386BB827C6311B004E0D9A /* WPPayResultViewController.swift */; };
 		48386BC027C63202004E0D9A /* WPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48386BBF27C63202004E0D9A /* WPNavigationController.swift */; };
+		485A8D0728123BE600F2DD8F /* WPAdressPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D0628123BE600F2DD8F /* WPAdressPickView.swift */; };
+		485A8D0928123BED00F2DD8F /* WPBillAddresslTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D0828123BED00F2DD8F /* WPBillAddresslTableViewCell.swift */; };
+		485A8D0B28123BF100F2DD8F /* WPBillAddresslTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485A8D0A28123BF100F2DD8F /* WPBillAddresslTableViewCell.xib */; };
+		485A8D0D28123BF500F2DD8F /* WPCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D0C28123BF500F2DD8F /* WPCheckBox.swift */; };
+		485A8D0F28123BFD00F2DD8F /* WPCreditCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D0E28123BFD00F2DD8F /* WPCreditCardTableViewCell.swift */; };
+		485A8D1128123C0100F2DD8F /* WPCreditCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485A8D1028123C0100F2DD8F /* WPCreditCardTableViewCell.xib */; };
+		485A8D1328123C0500F2DD8F /* WPPayTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D1228123C0500F2DD8F /* WPPayTextField.swift */; };
+		485A8D1528123C0900F2DD8F /* WPShadowBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D1428123C0900F2DD8F /* WPShadowBorderView.swift */; };
+		485A8D1A28163CB900F2DD8F /* WPReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A8D1928163CB900F2DD8F /* WPReceiptViewController.swift */; };
 		487140402664831F009F445D /* WintopaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4871403E2664831F009F445D /* WintopaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48714099266484AB009F445D /* WPPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48714098266484AB009F445D /* WPPayView.swift */; };
+		488328302804296D008D51E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4883282A2804296C008D51E8 /* Main.storyboard */; };
+		488328372804299E008D51E8 /* WPEditablePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488328322804299E008D51E8 /* WPEditablePayViewController.swift */; };
+		4883283D28042BB1008D51E8 /* EditPayAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4883283C28042BB1008D51E8 /* EditPayAddressViewController.swift */; };
 		4888985E2664D4E2007929E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888985D2664D4E2007929E8 /* AppDelegate.swift */; };
 		488898602664D4E2007929E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888985F2664D4E2007929E8 /* SceneDelegate.swift */; };
 		488898622664D4E2007929E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488898612664D4E2007929E8 /* ViewController.swift */; };
-		488898652664D4E2007929E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488898632664D4E2007929E8 /* Main.storyboard */; };
 		488898672664D4E4007929E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488898662664D4E4007929E8 /* Assets.xcassets */; };
 		4888986A2664D4E4007929E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488898682664D4E4007929E8 /* LaunchScreen.storyboard */; };
 		488898752664D4E5007929E8 /* PayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488898742664D4E5007929E8 /* PayDemoTests.swift */; };
@@ -119,16 +130,27 @@
 		481C248A2669C91800A625A1 /* WPNetWorkManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPNetWorkManage.swift; sourceTree = "<group>"; };
 		48386BB827C6311B004E0D9A /* WPPayResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPPayResultViewController.swift; sourceTree = "<group>"; };
 		48386BBF27C63202004E0D9A /* WPNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPNavigationController.swift; sourceTree = "<group>"; };
+		485A8D0628123BE600F2DD8F /* WPAdressPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPAdressPickView.swift; sourceTree = "<group>"; };
+		485A8D0828123BED00F2DD8F /* WPBillAddresslTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPBillAddresslTableViewCell.swift; sourceTree = "<group>"; };
+		485A8D0A28123BF100F2DD8F /* WPBillAddresslTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPBillAddresslTableViewCell.xib; sourceTree = "<group>"; };
+		485A8D0C28123BF500F2DD8F /* WPCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPCheckBox.swift; sourceTree = "<group>"; };
+		485A8D0E28123BFD00F2DD8F /* WPCreditCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPCreditCardTableViewCell.swift; sourceTree = "<group>"; };
+		485A8D1028123C0100F2DD8F /* WPCreditCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPCreditCardTableViewCell.xib; sourceTree = "<group>"; };
+		485A8D1228123C0500F2DD8F /* WPPayTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPPayTextField.swift; sourceTree = "<group>"; };
+		485A8D1428123C0900F2DD8F /* WPShadowBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPShadowBorderView.swift; sourceTree = "<group>"; };
+		485A8D1928163CB900F2DD8F /* WPReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPReceiptViewController.swift; sourceTree = "<group>"; };
 		4871403B2664831F009F445D /* WintopaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WintopaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4871403E2664831F009F445D /* WintopaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WintopaySDK.h; sourceTree = "<group>"; };
 		4871403F2664831F009F445D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48714098266484AB009F445D /* WPPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPPayView.swift; sourceTree = "<group>"; };
+		4883282A2804296C008D51E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		488328322804299E008D51E8 /* WPEditablePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPEditablePayViewController.swift; sourceTree = "<group>"; };
+		4883283C28042BB1008D51E8 /* EditPayAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPayAddressViewController.swift; sourceTree = "<group>"; };
 		488897752664CBA4007929E8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		4888985B2664D4E2007929E8 /* PayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4888985D2664D4E2007929E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4888985F2664D4E2007929E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		488898612664D4E2007929E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		488898642664D4E2007929E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		488898662664D4E4007929E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		488898692664D4E4007929E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4888986B2664D4E4007929E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -252,10 +274,36 @@
 			isa = PBXGroup;
 			children = (
 				4871403E2664831F009F445D /* WintopaySDK.h */,
+				488328312804299E008D51E8 /* WPAdress */,
 				4816A2B027CF4AF900415DF2 /* WPBasic */,
 				4816A2AA27CF49CC00415DF2 /* 3D */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		488328312804299E008D51E8 /* WPAdress */ = {
+			isa = PBXGroup;
+			children = (
+				488328322804299E008D51E8 /* WPEditablePayViewController.swift */,
+				485A8D1928163CB900F2DD8F /* WPReceiptViewController.swift */,
+				488328332804299E008D51E8 /* View */,
+			);
+			path = WPAdress;
+			sourceTree = "<group>";
+		};
+		488328332804299E008D51E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485A8D1428123C0900F2DD8F /* WPShadowBorderView.swift */,
+				485A8D1228123C0500F2DD8F /* WPPayTextField.swift */,
+				485A8D1028123C0100F2DD8F /* WPCreditCardTableViewCell.xib */,
+				485A8D0E28123BFD00F2DD8F /* WPCreditCardTableViewCell.swift */,
+				485A8D0C28123BF500F2DD8F /* WPCheckBox.swift */,
+				485A8D0828123BED00F2DD8F /* WPBillAddresslTableViewCell.swift */,
+				485A8D0A28123BF100F2DD8F /* WPBillAddresslTableViewCell.xib */,
+				485A8D0628123BE600F2DD8F /* WPAdressPickView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		488897762664CBA4007929E8 /* Products */ = {
@@ -273,10 +321,11 @@
 		4888985C2664D4E2007929E8 /* PayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4883283C28042BB1008D51E8 /* EditPayAddressViewController.swift */,
+				4883282A2804296C008D51E8 /* Main.storyboard */,
 				4888985D2664D4E2007929E8 /* AppDelegate.swift */,
 				4888985F2664D4E2007929E8 /* SceneDelegate.swift */,
 				488898612664D4E2007929E8 /* ViewController.swift */,
-				488898632664D4E2007929E8 /* Main.storyboard */,
 				488898662664D4E4007929E8 /* Assets.xcassets */,
 				488898682664D4E4007929E8 /* LaunchScreen.storyboard */,
 				4888986B2664D4E4007929E8 /* Info.plist */,
@@ -527,6 +576,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4896341B2664B557006FCB42 /* Wintopay.bundle in Resources */,
+				485A8D1128123C0100F2DD8F /* WPCreditCardTableViewCell.xib in Resources */,
+				485A8D0B28123BF100F2DD8F /* WPBillAddresslTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,9 +586,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				488898AF2664D688007929E8 /* Wintopay.bundle in Resources */,
+				488328302804296D008D51E8 /* Main.storyboard in Resources */,
 				4888986A2664D4E4007929E8 /* LaunchScreen.storyboard in Resources */,
 				488898672664D4E4007929E8 /* Assets.xcassets in Resources */,
-				488898652664D4E2007929E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,12 +679,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				481C24202666250900A625A1 /* WPTextField.swift in Sources */,
+				488328372804299E008D51E8 /* WPEditablePayViewController.swift in Sources */,
 				48A57EE727C7868A004326A4 /* WPMaskView.swift in Sources */,
+				485A8D0928123BED00F2DD8F /* WPBillAddresslTableViewCell.swift in Sources */,
 				4816A2B427CF4E0300415DF2 /* WP3DViewController.swift in Sources */,
 				48386BC027C63202004E0D9A /* WPNavigationController.swift in Sources */,
 				48386BB927C6311B004E0D9A /* WPPayResultViewController.swift in Sources */,
+				485A8D0D28123BF500F2DD8F /* WPCheckBox.swift in Sources */,
+				485A8D1A28163CB900F2DD8F /* WPReceiptViewController.swift in Sources */,
 				481C243B26675DC300A625A1 /* WPValidityTextFieldView.swift in Sources */,
+				485A8D1528123C0900F2DD8F /* WPShadowBorderView.swift in Sources */,
+				485A8D1328123C0500F2DD8F /* WPPayTextField.swift in Sources */,
 				4816A2B227CF4B7F00415DF2 /* WP3DWebView.swift in Sources */,
+				485A8D0F28123BFD00F2DD8F /* WPCreditCardTableViewCell.swift in Sources */,
+				485A8D0728123BE600F2DD8F /* WPAdressPickView.swift in Sources */,
 				48114A1E2665D30C00A86B9E /* WPTool.swift in Sources */,
 				48714099266484AB009F445D /* WPPayView.swift in Sources */,
 				481C248B2669C91A00A625A1 /* WPNetWorkManage.swift in Sources */,
@@ -646,6 +705,7 @@
 			files = (
 				488898622664D4E2007929E8 /* ViewController.swift in Sources */,
 				4888985E2664D4E2007929E8 /* AppDelegate.swift in Sources */,
+				4883283D28042BB1008D51E8 /* EditPayAddressViewController.swift in Sources */,
 				488898602664D4E2007929E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -687,14 +747,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		488898632664D4E2007929E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				488898642664D4E2007929E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		488898682664D4E4007929E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -912,6 +964,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = UKT6USTL5Z;
 				INFOPLIST_FILE = PayDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -919,7 +972,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.WintopayDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -934,6 +987,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = UKT6USTL5Z;
 				INFOPLIST_FILE = PayDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -941,7 +995,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-YuFU-Ecommerce-Ltd.WintopayDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

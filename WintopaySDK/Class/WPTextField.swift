@@ -49,6 +49,8 @@ open class WPCardNumberTextField: UIView,UITextFieldDelegate {
        
     }
     
+
+    
     
     open override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         //设置光标始终再最后一位
