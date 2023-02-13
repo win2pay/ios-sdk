@@ -430,7 +430,6 @@ open class WPEditablePayViewController: UIViewController, UITextFieldDelegate {
         default:
             break ;
         }
-        bill.ip = WPTool.getPublicIPAddress()
     }
     
     ///根据下标来添加地址数据
@@ -454,7 +453,6 @@ open class WPEditablePayViewController: UIViewController, UITextFieldDelegate {
         default:
             break ;
         }
-        bill.ip = WPTool.getPublicIPAddress()
     }
     
 

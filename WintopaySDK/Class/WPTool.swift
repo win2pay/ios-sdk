@@ -395,18 +395,7 @@ public class WPTool: NSObject {
         
     }
     
-    ///获取外部IP地址
-    public class func getPublicIPAddress() -> String {
-        var publicIP = ""
-        do {
-            try publicIP = String(contentsOf: URL(string: "https://api.ipify.org")!, encoding: String.Encoding.utf8)
-            publicIP = publicIP.trimmingCharacters(in: CharacterSet.whitespaces)
-        }
-        catch {
-            print("IP Error: \(error)")
-        }
-        return publicIP
-    }
+
     
     ///获取user—agent
     public class func getUserAgent() -> String? {

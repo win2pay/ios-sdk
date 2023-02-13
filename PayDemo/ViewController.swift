@@ -44,7 +44,7 @@ class ViewController: UIViewController{
         manage.referer = "www.wintopay.cn"
         
         //地址信息
-        let billAdress = WPBillingAddressParameter.init(billing_first_name: "Zach-test", billing_last_name: "Wigginton", billing_email: "742823994@qq.com", billing_phone: "+1 04695308545", billing_postal_code: "67207", billing_address: "wichita", billing_city: "wichita", billing_state: "KS", billing_country: "US", ip: WPTool.getPublicIPAddress())
+        let billAdress = WPBillingAddressParameter.init(billing_first_name: "Zach-test", billing_last_name: "Wigginton", billing_email: "742823994@qq.com", billing_phone: "+1 04695308545", billing_postal_code: "67207", billing_address: "wichita", billing_city: "wichita", billing_state: "KS", billing_country: "US", ip: "146.190.85.8")
         let shipadress = WPShippingAddressParameter.init(shipping_first_name: "Za2ch-test", shipping_last_name: "Wigginton", shipping_email: "742853394@qq.com", shipping_phone: "+1 046925308545", shipping_postal_code: "67207", shipping_address: "2018SCr2anbrookSt", shipping_city: "wichi2ta", shipping_state: "KS", shipping_country: "US")
         manage.billAdress = billAdress
         manage.shippingAddress = shipadress
