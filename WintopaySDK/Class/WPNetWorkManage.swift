@@ -161,7 +161,7 @@ public struct WPBillingAddressParameter: Encodable {
     var billing_state:String
     ///国家对应的两位 ISO 标准国家简码
     var billing_country:String
-    ///客户端的 ip 地址，注意不是服务器的 ip
+    ///客户端的 ip 地址，注意不是服务器的 ip 
     var ip:String
 
     
@@ -256,7 +256,8 @@ public struct WPProductsEncodable:Encodable{
 
 ///订单原始地址信息modl
 public struct WPOrderAddress {
- 
+    
+    ///交易数据
     public var transaction_data:String
     
     public init(bill:WPBillingAddressParameter,shipping:WPShippingAddressParameter,products:WPProductsInformationParameter,order_created_time:String,freight:String){
@@ -290,14 +291,15 @@ public struct WPOrderAddress {
 
 public struct RequestModel: Encodable{
     
+    ///基本信息
     public var basicInformation: WPBasicParameter
-    
+    ///账单地址信息
     public var billingInformation: WPBillingAddressParameter
-    
+    ///收货地址信息
     public var shippingInformation:WPShippingAddressParameter
-    
+    ///产品信息
     public var productsInforamtion:WPProductsInformationParameter
-    
+    ///交易数据
     public var transaction_data:String?
     
     public init(basic:WPBasicParameter,billing:WPBillingAddressParameter,shipping:WPShippingAddressParameter,products:WPProductsInformationParameter,data:String?) {
